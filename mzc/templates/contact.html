@@ -1,12 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Welcome to contact page</h1>
-</body>
-</html>
+
+   {% extends 'base.html' %}
+   {% block myContent %}
+
+   <div class="container">
+        <div class="row">
+        <div class="col col-12 col-sm-6 col-md-4">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta praesentium, obcaecati reprehenderit natus nobis consequuntur pariatur expedita aut repellendus corporis vitae totam autem nulla rem, beatae eos id sunt quae? 
+    
+        </div>
+       <div class="col col-12 col-sm-6 col-md-8">
+            <table class="table">
+                    <tr>
+                        <td>Stud Name</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Rollno</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Admission NO</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button class="btn btn-primary">Submit</button></td>
+                    </tr>
+                </table>
+    </div>
+         </div>   
+        </div>
+    
+   {% endblock %}
+   
